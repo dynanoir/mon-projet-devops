@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: dynanoir/frontend:latest
+        image: tomguittet/frontend:latest
         ports:
         - containerPort: 80
 ---

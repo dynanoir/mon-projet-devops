@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: dynanoir/backend:latest
+        image: tomguittet/backend:latest
         ports:
         - containerPort: 3000
         env:
